@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'This is just a test build'
+                echo 'Nothing is actual happening'
+                echo 'Build Successful'
+            }
+        }
+    }
+}
